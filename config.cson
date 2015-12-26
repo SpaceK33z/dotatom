@@ -1,0 +1,94 @@
+"*":
+  "exception-reporting":
+    userId: "bb1d3df0-77d1-1c9d-720f-99ea0155c237"
+  "release-notes":
+    viewedVersion: "0.94.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "2762f0b08b6cb896f7b149b6ef8a986000331521"
+  editor:
+    fontFamily: "Menlo"
+    showIndentGuide: true
+    invisibles:
+      eol: " "
+      cr: " "
+    tabLength: 4
+    showInvisibles: true
+    preferredLineLength: 120
+    fontSize: 13
+  core:
+    disabledPackages: [
+      "autocomplete"
+      "spell-check"
+      "autosave"
+    ]
+    themes: [
+      "one-dark-ui"
+      "peacock-syntax"
+    ]
+    projectHome: "/Users/kees/Websites/www"
+    packagesWithKeymapsDisabled: [
+      "highlight-selected"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "__pycache__"
+      "*.pyc"
+    ]
+  "atom-terminal":
+    app: "/Applications/iTerm.app"
+  autosave: {}
+  "autocomplete-plus": {}
+  "autoclose-html":
+    closeOnEndOfOpeningTag: true
+  linter:
+    ignoredLinterErrors: [
+      "shellcheck"
+      "phpmd"
+    ]
+  emmet: {}
+  docblockr: {}
+  "one-dark-ui":
+    layoutMode: "Compact"
+  "spell-check": {}
+  "tree-view":
+    hideIgnoredNames: true
+  "linter-shellcheck":
+    shellcheckExecutablePath: "/usr/local/bin/shellcheck"
+  "linter-phpmd":
+    phpmdExecutablePath: "/usr/local/bin/phpmd"
+  tabs: {}
+  "linter-scss-lint":
+    executablePath: "/usr/local/bin/scss-lint"
+  "linter-php": {}
+  "linter-phpcs":
+    executablePath: "/usr/local/bin/phpcs"
+    disableWhenNoConfigFile: true
+  "git-plus":
+    gitPath: "/usr/local/bin/git"
+  "the-closer":
+    closeWindowTogetherWithLastTab: false
+  "merge-conflicts": {}
+  "toggle-quotes": {}
+  "advanced-open-file":
+    createFileInstantly: true
+  "custom-title":
+    template: "<%=filePath%>"
+  "highlight-selected":
+    minimumLength: 1
+  "linter-eslint": {}
+".gfm.source":
+  editor:
+    preferredLineLength: 120
+".diff.source":
+  editor:
+    preferredLineLength: 120
+".ini.source":
+  editor:
+    preferredLineLength: 120
