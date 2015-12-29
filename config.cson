@@ -83,12 +83,12 @@
   "highlight-selected":
     minimumLength: 1
   "linter-eslint": {}
-".gfm.source":
+".ini.source":
   editor:
     preferredLineLength: 120
 ".diff.source":
   editor:
     preferredLineLength: 120
-".ini.source":
+".gfm.source":
   editor:
     preferredLineLength: 120
